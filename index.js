@@ -1,3 +1,5 @@
+const http = require('http');
+http.createServer((req, res) => res.end('Bot funcionando')).listen(process.env.PORT || 3000);
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 
