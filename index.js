@@ -18,7 +18,6 @@ const client = new Client({
         ]
     }
 });
-});
 
 client.on('qr', qr => {
     console.log('copia el texto largo que aparece abajo:');
