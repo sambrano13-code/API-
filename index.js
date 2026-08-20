@@ -20,7 +20,7 @@ client.on('message', msg => {
     const texto = msg.body.toLowerCase();
 
     // 1. BIENVENIDA
-    if (texto === 'hola' || texto === 'buenas' || texto === 'buen dia' || texto === 'buenas tardes' || texto === 'buenas noches') {
+    if (texto === 'hola' || texto === 'Hola') || texto === 'buenas' || texto === 'buen dia' || texto === 'buenas tardes' || texto === 'buenas noches') || texto === 'Hola, quiero probar la demo') || texto === 'Hola, busco la demo'){
         msg.reply('✨ ¡Hola! Bienvenida a *iSTORE PS*.\n\nEscribí:\n👉 *"iphones"* para ver nuestro catálogo de iPhones.\n👉 *"mensajeria"* para ver el catálogo de automatización para negocios.');
     }
     
