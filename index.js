@@ -8,8 +8,9 @@ const client = new Client({
 });
 
 client.on('qr', qr => {
-    qrcode.generate(qr, {small: true});
-    console.log('Romi, escaneá el QR con tu WhatsApp:');
+    console.log('copia el texto largo que aparece abajo:');
+    console.log(qr);
+    console.log ('pegar en un generador de qr');
 });
 
 client.on('ready', () => {
