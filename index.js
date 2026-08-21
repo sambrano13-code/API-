@@ -46,29 +46,30 @@ Optimizamos la atención de tu negocio y aumentamos tus ventas con software a me
 ----------------------------------
 🌐 *1. PÁGINAS WEB & TIENDAS ONLINE*
 • *Landing Page Estándar:* $120 – $220 USD
-  └ _Mantenimiento: $15 – $25 USD/mes_
+  └ _licencia de uso: $15 – $25 USD/mes_
 • *Web Institucional Completa:* $250 – $400 USD
-  └ _Mantenimiento: $25 – $40 USD/mes_
+  └ _licencia de uso: $25 – $40 USD/mes_
 • *E-Commerce / Catálogo Digital:* $450 – $800 USD
-  └ _Mantenimiento: $40 – $70 USD/mes_
+  └ _licencia de uso: $40 – $70 USD/mes_
 
 🤖 *2. BOTS DE WHATSAPP & AUTOMATIZACIÓN*
 • *Bot Básico 24/7:* $100 – $180 USD
-  └ _Mantenimiento: $20 – $30 USD/mes_
+  └ _licencia de uso: $20 – $30 USD/mes_
 • *Bot Avanzado (Flujos + APIs):* $200 – $350 USD
-  └ _Mantenimiento: $30 – $50 USD/mes_
+  └ _licencia de uso: $30 – $50 USD/mes_
 
 🚀 *3. PACKS PROMO (WEB + BOT)*
 • *Pack Despegue (Landing + Bot Básico):* $250 – $350 USD
-  └ _Mantenimiento: $45 USD/mes_
+  └ _licencia de uso: $45 USD/mes_
 • *Pack Pro (Web Completa + Bot Avanzado):* $500 – $700 USD
-  └ _Mantenimiento: $60 USD/mes_
+  └ _licencia de uso: $60 USD/mes_
 
 ----------------------------------
-🤔 *¿Querés saber cuál es el ideal para tu negocio?*
+*¿Querés saber cuál es el ideal para tu negocio?*
 Respondé con la palabra *"INFO"* contándome el nombre de tu emprendimiento y qué vendés para asesorarte sin compromiso.`;
+'tenes una PYME? avisame y te hacemos un presupuesto segun tu presupuesto';
         
-        msg.reply(mensajeSaberMas);
+        msg.reply(mesajeSaberMas);
     }
     // 3. CAPTURA DE EMPRENDIMIENTO
     else if (texto.startsWith('info')) {
